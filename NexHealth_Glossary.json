@@ -418,5 +418,10 @@
     "term": "Insurance Claim Charge",
     "definition": "The association between an Insurance Claim and one of the Charges that it is intended to cover.  Our model for this includes estimate and Write-off information.  E.g. \u201cWe estimate that claim 123 will pay $25 of the $50 owed for charge 456, and that the write-off will be $25\u201d.  This is a many-to-many relation - a given Charge may have multiple Insurance Claims, and a given Insurance Claim may cover multiple Charges.",
     "category": "Payments"
+  },
+  {
+    "term": "Test",
+    "definition": "This is a test",
+    "category": NaN
   }
 ]
