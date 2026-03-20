@@ -1,12 +1,167 @@
 [
   {
-    "term": "GPV",
-    "definition": "Gross Processing Volume. The $ that the office processes with NexHealth each month",
-    "category": "Finance"
+    "term": "Abutment",
+    "definition": "A tooth (or implant) that supports a dental prothesis (fake tooth)",
+    "category": "Dental/ Medical"
   },
   {
-    "term": "Net Revenue",
-    "definition": "This is represented by the fee that we charge for the transactions. We are assuming a rate of 2.5% (between card and card not present transactions to be conservative)",
+    "term": "Access Control",
+    "definition": "Policies and technical measures that allow only authorized people or software to access ePHI.",
+    "category": "Security Rule"
+  },
+  {
+    "term": "Access Log / Audit Log",
+    "definition": "A record of user or system activity used to monitor access and investigate incidents.",
+    "category": "Access and Operations"
+  },
+  {
+    "term": "Access Review",
+    "definition": "A review of which users currently have system access and whether that access is still appropriate.",
+    "category": "Compliance / Systems"
+  },
+  {
+    "term": "Accounting of Disclosures",
+    "definition": "A record of certain disclosures of PHI made by a covered entity.",
+    "category": "Patient Rights"
+  },
+  {
+    "term": "Accounts Receivable (A/R)",
+    "definition": "Money owed to the practice by patients or insurers for services already provided.",
+    "category": "Payments / Finance"
+  },
+  {
+    "term": "Adjustment",
+    "definition": "A modification to the Patient\u2019s balance which is not itself considered a Charge or a Payment.  Examples of positive (balance increasing) adjustments might be late fees, processing fees, etc.  Examples of negative (balance decreasing) adjustments might be good patient discounts, or (in some EHRs) write-offs.",
+    "category": "Payments"
+  },
+  {
+    "term": "Administrative Safeguards",
+    "definition": "Policies, procedures, and administrative actions used to manage security measures for ePHI.",
+    "category": "Security Rule"
+  },
+  {
+    "term": "Agent (Sync overview page)",
+    "definition": "The number of enabled sync agents for the data source.",
+    "category": "Tools"
+  },
+  {
+    "term": "Annual Maximum",
+    "definition": "The maximum amount a dental insurance plan will pay in a benefit year.",
+    "category": "Insurance"
+  },
+  {
+    "term": "API",
+    "definition": "Application Programming Interface. A software interface that allows systems to exchange data programmatically.",
+    "category": "Engineering / Systems"
+  },
+  {
+    "term": "Appointment Wait List",
+    "definition": "Athena term for the waitlist of patients who want an earlier appointment.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Arch [Dental]",
+    "definition": "Term used to refer to upper or lower denture",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Arch [Engineering]",
+    "definition": "A Linux distro.",
+    "category": "Engineering"
+  },
+  {
+    "term": "ASAP List",
+    "definition": "Hot-list designation for patients who want to come in sooner. Used in Dentrix, Dentrix Ascend, Dentrix Enterprise, Open Dental, and Athena.",
+    "category": "General"
+  },
+  {
+    "term": "Athena",
+    "definition": "Medical, cloud-based EHR that uses the Chrome extension exclusively.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Attachments",
+    "definition": "In ModMed, the patient chart area where demographic information, medical history, alerts, and insurance-related information are referenced.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Audit Controls",
+    "definition": "Hardware, software, or procedures that record and examine activity in systems containing ePHI.",
+    "category": "Security Rule"
+  },
+  {
+    "term": "Audit Trail",
+    "definition": "A record showing what actions were taken, when, and by whom in a system or workflow.",
+    "category": "Compliance / Systems"
+  },
+  {
+    "term": "Authorization",
+    "definition": "A written permission from the individual allowing use or disclosure of PHI for certain purposes not otherwise permitted by HIPAA.",
+    "category": "Privacy and Disclosure"
+  },
+  {
+    "term": "Automatic Logoff",
+    "definition": "A security feature that ends an electronic session after a period of inactivity.",
+    "category": "Security Rule"
+  },
+  {
+    "term": "AWS",
+    "definition": "Amazon Web Services",
+    "category": "Engineering"
+  },
+  {
+    "term": "Backend",
+    "definition": "The Ruby on Rails app that NexHealth hosts. It serves our SaaS app, and it is where the sync agents send the data to.",
+    "category": "Engineering"
+  },
+  {
+    "term": "BAU",
+    "definition": "Business as Usual. Normal day-to-day operating work as opposed to special projects or escalations.",
+    "category": "General / Operations"
+  },
+  {
+    "term": "Beacon",
+    "definition": "Periodic check-ins from our agents to report that they\u2019re running, and any recent errors they\u2019ve encountered.",
+    "category": "Tools"
+  },
+  {
+    "term": "Benefits Breakdown",
+    "definition": "A summary of what an insurance plan covers, including frequencies, percentages, maximums, and exclusions.",
+    "category": "Insurance"
+  },
+  {
+    "term": "Block Scheduling",
+    "definition": "Tools menu used to map provider hours and appointment types for Denticon and Open Dental schedule blocks.",
+    "category": "Tools"
+  },
+  {
+    "term": "Breach",
+    "definition": "Generally, an impermissible use or disclosure that compromises the security or privacy of PHI.",
+    "category": "Incident and Breach"
+  },
+  {
+    "term": "Breach Notification Rule",
+    "definition": "The HIPAA rule that requires notifications after certain breaches of unsecured PHI.",
+    "category": "Incident and Breach"
+  },
+  {
+    "term": "Business Associate (BA)",
+    "definition": "A person or organization that performs services or functions for a covered entity and involves PHI.",
+    "category": "Core HIPAA Terms"
+  },
+  {
+    "term": "Business Associate Agreement (BAA)",
+    "definition": "A contract that defines how a business associate may use or disclose PHI and what safeguards are required.",
+    "category": "Core HIPAA Terms"
+  },
+  {
+    "term": "Cancellation Rate",
+    "definition": "The percentage of appointments canceled before they occur.",
+    "category": "Practice Operations"
+  },
+  {
+    "term": "Card Not Present Transaction",
+    "definition": "Transactions that happen via our email / text to pay capability. They are more risky and thus more expensive",
     "category": "Finance"
   },
   {
@@ -15,34 +170,9 @@
     "category": "Finance"
   },
   {
-    "term": "Card Not Present Transaction",
-    "definition": "Transactions that happen via our email / text to pay capability. They are more risky and thus more expensive",
-    "category": "Finance"
-  },
-  {
-    "term": "Smart Commands",
-    "definition": "Reserved keywords that can be used to interpolate dynamic content into our campaigns and templates e.g. PATIENTNAME Some of these can also inject more interactive bits like buttons",
-    "category": "Product"
-  },
-  {
-    "term": "Smart Forms",
-    "definition": "Forms that are configured to be sent / shown conditionally based on many factors to automate exercising the right forms at the right time",
-    "category": "Product"
-  },
-  {
-    "term": "SDC",
-    "definition": "SmileDirectClub - API partner",
-    "category": "Customers"
-  },
-  {
-    "term": "SBS",
-    "definition": "Simply Beautiful Smiles",
-    "category": "Customers"
-  },
-  {
-    "term": "NDP",
-    "definition": "National Dental Partners. Formerly the CDP (Community Dental Partners)",
-    "category": "Customers"
+    "term": "Case Acceptance",
+    "definition": "The percentage of additional treatment plans presented to a patient that are accepted.",
+    "category": "Dental/ Medical"
   },
   {
     "term": "CDP",
@@ -50,24 +180,209 @@
     "category": "Customers"
   },
   {
-    "term": "NADG",
-    "definition": "North American Dental Group, a large DSO customer",
-    "category": "Customers"
+    "term": "CDT Code",
+    "definition": "Current Dental Terminology code set used to document and bill dental procedures.",
+    "category": "Dental / Billing"
+  },
+  {
+    "term": "CE",
+    "definition": "Chrome Extension. A tool used by the cloud team to capture info from cloud EHR customers. Not to be confused with Halo: Combat Evolved.",
+    "category": "Engineering"
+  },
+  {
+    "term": "Chair Time",
+    "definition": "The amount of clinical time scheduled or used for patient care.",
+    "category": "Dental / Practice Operations"
+  },
+  {
+    "term": "Charge",
+    "definition": "The abstract concept of something for which a Patient is charged (most often a Procedure)",
+    "category": "Payments"
+  },
+  {
+    "term": "Claim Status",
+    "definition": "The current stage of an insurance claim, such as submitted, pending, paid, or denied.",
+    "category": "Insurance"
+  },
+  {
+    "term": "Client Analytics",
+    "definition": "Tools menu used to add a Google Tag and a redirect URL.",
+    "category": "Tools"
+  },
+  {
+    "term": "Clinical Documents",
+    "definition": "In Athena, the area where synced documents go.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Cloud 9",
+    "definition": "Cloud-based orthodontic EHR that uses the Chrome extension exclusively.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Completed Treatment",
+    "definition": "Procedures that have already been performed and recorded in the chart.",
+    "category": "Dental / Medical"
+  },
+  {
+    "term": "Confidential Communications",
+    "definition": "A patient\u2019s right to request communications by alternative means or at alternative locations.",
+    "category": "Patient Rights"
+  },
+  {
+    "term": "Consent",
+    "definition": "A patient\u2019s general agreement. Under HIPAA, consent is different from authorization.",
+    "category": "Privacy and Disclosure"
+  },
+  {
+    "term": "Consent Form",
+    "definition": "A form used to record the patient\u2019s agreement to treatment, communications, privacy practices, or other actions.",
+    "category": "Patient / Forms"
+  },
+  {
+    "term": "Continuing Care",
+    "definition": "In Orthotrac, NexHealth reads Continuing Care appointments rather than a traditional waitlist.",
+    "category": "On-Prem"
+  },
+  {
+    "term": "Copy Templates",
+    "definition": "Tools menu used to deploy custom Continuing Care Recall templates.",
+    "category": "Tools"
+  },
+  {
+    "term": "Covered Entity",
+    "definition": "A health plan, healthcare clearinghouse, or healthcare provider directly subject to HIPAA.",
+    "category": "Core HIPAA Terms"
+  },
+  {
+    "term": "CPT Code",
+    "definition": "Current Procedural Terminology code used for many medical services and procedures.",
+    "category": "Medical / Billing"
+  },
+  {
+    "term": "CS",
+    "definition": "Customer Support",
+    "category": "General"
+  },
+  {
+    "term": "CSAT",
+    "definition": "Customer Satisfaction Score",
+    "category": "General"
+  },
+  {
+    "term": "CSE",
+    "definition": "Customer Support Engineer.",
+    "category": "Support"
+  },
+  {
+    "term": "CSR",
+    "definition": "Customer Support Representative.",
+    "category": "Support"
+  },
+  {
+    "term": "Data Mapping",
+    "definition": "The process of matching one system\u2019s fields to another system\u2019s fields during an integration.",
+    "category": "Engineering / Systems"
+  },
+  {
+    "term": "Data Retention",
+    "definition": "How long information is kept according to policy or legal requirements.",
+    "category": "Access and Operations"
+  },
+  {
+    "term": "De-Identified Data",
+    "definition": "Health-related data stripped of identifiers so it is no longer considered PHI under HIPAA standards.",
+    "category": "Laws / Compliance"
+  },
+  {
+    "term": "Deductible",
+    "definition": "The amount a patient must pay before insurance begins paying for covered services, depending on the plan.",
+    "category": "Insurance"
+  },
+  {
+    "term": "Denial",
+    "definition": "An insurer decision not to pay for a submitted claim or service.",
+    "category": "Insurance"
+  },
+  {
+    "term": "Denticon",
+    "definition": "Dental, cloud-based EHR owned by Planet DDS.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Dentrix",
+    "definition": "Dental, on-prem/server-based EHR and one of the \"Big 3\" dental integrations.",
+    "category": "On-Prem"
+  },
+  {
+    "term": "Dentrix Ascend",
+    "definition": "Dental, cloud-based EHR (often abbreviated DxA) that uses the Chrome extension and is distinct from standard Dentrix.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Dentrix Enterprise",
+    "definition": "Dental, on-prem/server-based EHR (often abbreviated DxE) used with multi-location enterprise customers.",
+    "category": "On-Prem"
+  },
+  {
+    "term": "Designated Record Set (DRS)",
+    "definition": "A group of records maintained by or for a covered entity that is used to make decisions about individuals.",
+    "category": "Patient Rights"
+  },
+  {
+    "term": "Disclosure",
+    "definition": "The release, transfer, or provision of access to PHI outside the organization holding it.",
+    "category": "Privacy and Disclosure"
+  },
+  {
+    "term": "DM",
+    "definition": "Decision Maker - often the doctor or dentist.",
+    "category": "Sales"
+  },
+  {
+    "term": "DN",
+    "definition": "Data Networks - Previous name of the Sync engineering team. Team builds and maintains the synchronization agents that allow data to flow to and from our customers\u2019 systems",
+    "category": "Engineering"
+  },
+  {
+    "term": "Document Center",
+    "definition": "Folder/location where scanned or synced documents go in Dentrix, Dentrix Enterprise, and Denticon.",
+    "category": "General"
+  },
+  {
+    "term": "Document Manager",
+    "definition": "In Dentrix Ascend, the location where scanned documents go. Open Dental customers may also refer to Imaging as the document manager.",
+    "category": "General"
+  },
+  {
+    "term": "Document Types",
+    "definition": "Practice-specific folders that completed forms sync into after a patient completes them; every NexHealth form has a designated document type.",
+    "category": "Product"
+  },
+  {
+    "term": "Documents Cabinet",
+    "definition": "In Cloud 9, the area where synced documents go.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Dolphin",
+    "definition": "Dental, on-prem/server-based EHR.",
+    "category": "On-Prem"
+  },
+  {
+    "term": "DPMS",
+    "definition": "Dental Practice Management System (see EHR)",
+    "category": "General"
+  },
+  {
+    "term": "DrChrono",
+    "definition": "Medical, cloud-based EHR. The missed-appointment term is \"no show.\"",
+    "category": "Cloud"
   },
   {
     "term": "DSO",
     "definition": "Dental Service Organization - Multiple location institution. Often large, 10-30 offices. Has full executive team, marketing, etc.",
     "category": "General"
-  },
-  {
-    "term": "EHR",
-    "definition": "Electronic Health Record. Used interchangeably with EMR and PMS. Engineering typically uses EHR instead of PMS or EMR.",
-    "category": "General"
-  },
-  {
-    "term": "eCW",
-    "definition": "eClinicalWorks - Cloud-based Practice Management System",
-    "category": "Cloud"
   },
   {
     "term": "DXA",
@@ -80,24 +395,34 @@
     "category": "On-Prem"
   },
   {
-    "term": "Open Dental",
-    "definition": "Sometimes shortened to OD. A mostly open-source EHR that is usually single location, but supports multi-location and enterprise customers.",
+    "term": "Eaglesoft",
+    "definition": "Dental, on-prem/server-based EHR and one of the \"Big 3\" dental integrations.",
     "category": "On-Prem"
   },
   {
-    "term": "HIPAA",
-    "definition": "Health Insurance Portability and Accountability Act, means that any medical offices or platforms handling PHI must meet a certain level of security and protection",
+    "term": "eCW",
+    "definition": "eClinicalWorks - Cloud-based Practice Management System",
+    "category": "Cloud"
+  },
+  {
+    "term": "EHR",
+    "definition": "Electronic Health Record. Used interchangeably with EMR and PMS. Engineering typically uses EHR instead of PMS or EMR.",
     "category": "General"
   },
   {
-    "term": "PHI",
-    "definition": "Protected Health Information, with regards to HIPAA compliance. A subset of PII. Any information about health status, provision of health care, or payment for health care that is created or collected by a Covered Entity, and can be linked to a specific individual e.g. test results, insurance payments, etc.",
-    "category": "General"
+    "term": "Eligibility",
+    "definition": "Verification of whether a patient has active insurance coverage and applicable benefits.",
+    "category": "Insurance"
   },
   {
-    "term": "PII",
-    "definition": "Personally Identifiable Information, a superset of PHI",
-    "category": "General"
+    "term": "Emergency Access Procedure",
+    "definition": "A required procedure for obtaining needed ePHI during an emergency.",
+    "category": "Security Rule"
+  },
+  {
+    "term": "Employer",
+    "definition": "Many systems assume insurance is only offered through a guarantor\u2019s employer, and thus there will be a record of what company that person works for.",
+    "category": "Payments"
   },
   {
     "term": "EMR",
@@ -105,199 +430,74 @@
     "category": "General"
   },
   {
-    "term": "PMS",
-    "definition": "Practice Management System - software medical & dental practices use to run their practice. Sometimes used synonymously with EMR and EHR.",
-    "category": "General"
+    "term": "Encryption / Decryption",
+    "definition": "Converting data into a protected form and restoring it to readable form for authorized use.",
+    "category": "Security Rule"
   },
   {
-    "term": "DPMS",
-    "definition": "Dental Practice Management System (see EHR)",
-    "category": "General"
+    "term": "Encryption at Rest",
+    "definition": "Protection of stored data through encryption.",
+    "category": "Access and Operations"
   },
   {
-    "term": "Ins",
-    "definition": "Institution. The medical entity that is the parent of multiple practice locations. Small institutions could have one location. Larger ones could have dozens or hundreds of locations. Called an \u201cOrganization\u201d within Enlive.",
-    "category": "General"
+    "term": "Encryption in Transit",
+    "definition": "Protection of data while it is being transmitted electronically.",
+    "category": "Access and Operations"
   },
   {
-    "term": "Loc",
-    "definition": "Location. Place of business for a medical or dental practice. Larger institutions can have multiple locations or practices. Also see practice.",
-    "category": "General"
-  },
-  {
-    "term": "NTKF",
-    "definition": "Need to Know Friday. Our internal weekly broadcast about key product changes and new features to know about!",
-    "category": "General"
-  },
-  {
-    "term": "Payments",
-    "definition": "A product we offer to collect payments.",
-    "category": "General"
-  },
-  {
-    "term": "Practice",
-    "definition": "Single location or few locations (<5). Also referred to as a location.",
-    "category": "General"
-  },
-  {
-    "term": "Provider",
-    "definition": "A doctor, nurse, hygienist, or someone else that provides care to a patient. Also refers to who bills the insurance.",
-    "category": "General"
-  },
-  {
-    "term": "Operatory",
-    "definition": "Commonly shortened to op in code. Exam room or chair that the doctor or hygienist works in. May also refer to the column that the office manager uses to schedule a doctor/hygienist in the PMS. Some customers will assign create an op per provider, but that is rare.",
-    "category": "General"
-  },
-  {
-    "term": "Packet",
-    "definition": "A collection of forms.",
-    "category": "General"
-  },
-  {
-    "term": "SLA",
-    "definition": "Service Level Agreement. The amount of time (1 hour) we have to respond to clients as per their contracts. It is not actually written in their contracts, however NexHealth uses it as a metric to determine how quickly we are able to respond to customers' inquiries.",
-    "category": "General"
-  },
-  {
-    "term": "OB",
-    "definition": "Online Booking",
-    "category": "General"
-  },
-  {
-    "term": "CSAT",
-    "definition": "Customer Satisfaction Score",
-    "category": "General"
-  },
-  {
-    "term": "CS",
-    "definition": "Customer Support",
-    "category": "General"
-  },
-  {
-    "term": "A2P",
-    "definition": "Application-to-Person messaging (as opposed to person-to-person messaging like when you\u2019re messaging your friends)",
-    "category": "General"
-  },
-  {
-    "term": "Backend",
-    "definition": "The Ruby on Rails app that NexHealth hosts. It serves our SaaS app, and it is where the sync agents send the data to.",
-    "category": "Engineering"
-  },
-  {
-    "term": "DN",
-    "definition": "Data Networks - Previous name of the Sync engineering team. Team builds and maintains the synchronization agents that allow data to flow to and from our customers\u2019 systems",
-    "category": "Engineering"
-  },
-  {
-    "term": "Tools",
-    "definition": "Usually used to refer to the NexHealth internal tools/configuration platform. See the tools section",
-    "category": "Engineering"
-  },
-  {
-    "term": "PX",
-    "definition": "Patient Experience. The team formerly known as SaaS.",
-    "category": "Engineering"
-  },
-  {
-    "term": "Production [Engineering]",
-    "definition": "Where our server software that can be publicly accessed by our customers and their patients. Thus if a software fix/change/feature is \u201cin production\u201d that means customers/patients can access it.",
-    "category": "Engineering"
-  },
-  {
-    "term": "PDFWS",
-    "definition": "PDFWebServer. The Django app that runs Enlive. In production, this runs at [forms.nexhealth.com](http://forms.nexhealth.com/). It is mostly deprecated and only remains to support some legacy workflows.",
-    "category": "Engineering"
-  },
-  {
-    "term": "AWS",
-    "definition": "Amazon Web Services",
-    "category": "Engineering"
-  },
-  {
-    "term": "Arch [Engineering]",
-    "definition": "A Linux distro.",
-    "category": "Engineering"
-  },
-  {
-    "term": "CE",
-    "definition": "Chrome Extension. A tool used by the cloud team to capture info from cloud EHR customers. Not to be confused with Halo: Combat Evolved.",
-    "category": "Engineering"
-  },
-  {
-    "term": "Synchronizer",
-    "definition": "Our Trademarked term for our integration with Health Record Systems",
-    "category": "Engineering"
-  },
-  {
-    "term": "Agent (Sync overview page)",
-    "definition": "The number of enabled sync agents for the data source.",
-    "category": "Tools"
-  },
-  {
-    "term": "Beacon",
-    "definition": "Periodic check-ins from our agents to report that they\u2019re running, and any recent errors they\u2019ve encountered.",
-    "category": "Tools"
-  },
-  {
-    "term": "SMB",
-    "definition": "Small/Medium Business",
-    "category": "Sales"
-  },
-  {
-    "term": "SQL",
-    "definition": "Sales Qualified Leads",
-    "category": "Sales"
-  },
-  {
-    "term": "SDR",
-    "definition": "Sales Development Representative - Outbound Sales",
-    "category": "Sales"
-  },
-  {
-    "term": "LDR",
-    "definition": "Lead Development Representative (Sales)",
-    "category": "Sales"
-  },
-  {
-    "term": "NDM",
-    "definition": "Non-Decision Maker, but still important for adoption of NexHealth. Often the Office or Front Desk Manager.",
-    "category": "Sales"
-  },
-  {
-    "term": "MQL",
-    "definition": "Marketing Qualified Lead",
-    "category": "Sales"
-  },
-  {
-    "term": "DM",
-    "definition": "Decision Maker - often the doctor or dentist.",
-    "category": "Sales"
-  },
-  {
-    "term": "Production [Dental office]",
-    "definition": "Dollar value of an appointment. Keep in mind that dental practices are essentially businesses and the practice is interested in high production appointments (e.g. a root canal or extraction) that would bring in more money.",
+    "term": "Endodontist",
+    "definition": "A dental specialist focused on the study and treatment of the dental pulp (the inner layers of the tooth), often associated with root-canal treatment.",
     "category": "Dental/ Medical"
   },
   {
-    "term": "OM",
-    "definition": "Office Manager",
+    "term": "Enlive",
+    "definition": "NexHealth forms app used with desktop and iPad workflows for forms and treatment-plan handoff.",
+    "category": "Product"
+  },
+  {
+    "term": "ePHI",
+    "definition": "Electronic Protected Health Information. PHI that is created, stored, received, or transmitted electronically.",
+    "category": "Core HIPAA Terms"
+  },
+  {
+    "term": "ERA",
+    "definition": "Electronic Remittance Advice. The electronic version of insurer payment and adjudication details.",
+    "category": "Insurance"
+  },
+  {
+    "term": "Escalation",
+    "definition": "The process of routing a case or issue to a more specialized team or higher support level.",
+    "category": "Support"
+  },
+  {
+    "term": "Extraction",
+    "definition": "The process or act of removing a tooth.",
     "category": "Dental/ Medical"
   },
   {
-    "term": "Resin",
-    "definition": "Cavities (fillings)",
-    "category": "Dental/ Medical"
+    "term": "Facilities",
+    "definition": "eCW term for locations.",
+    "category": "Cloud"
   },
   {
-    "term": "Recall",
-    "definition": "A reminder scheduled for some period of time after a previous appointment prompting the patient to come back in.",
-    "category": "Dental/ Medical"
+    "term": "Family File",
+    "definition": "In Dentrix and Dentrix Enterprise, the patient chart holding demographic information, medical history, alerts, and insurance information.",
+    "category": "On-Prem"
   },
   {
-    "term": "Prophy",
-    "definition": "Procedure code used in dental PMS, short for \u201cprophylaxis\u201d. What you would typically think of as a regular cleaning.",
-    "category": "Dental/ Medical"
+    "term": "Family Module",
+    "definition": "Open Dental term used to refer to a patient's file.",
+    "category": "On-Prem"
+  },
+  {
+    "term": "Fill Rate",
+    "definition": "A scheduling metric reflecting how successfully open appointment slots are filled.",
+    "category": "Practice Operations"
+  },
+  {
+    "term": "Five9",
+    "definition": "Phone system used by CSRs and other teams; call recordings are also accessed there.",
+    "category": "Support"
   },
   {
     "term": "FM",
@@ -305,69 +505,34 @@
     "category": "Dental/ Medical"
   },
   {
-    "term": "Arch [Dental]",
-    "definition": "Term used to refer to upper or lower denture",
-    "category": "Dental/ Medical"
+    "term": "Follow Up",
+    "definition": "Medical term for a post-appointment next step or visit.",
+    "category": "Medical"
   },
   {
-    "term": "Abutment",
-    "definition": "A tooth (or implant) that supports a dental prothesis (fake tooth)",
-    "category": "Dental/ Medical"
+    "term": "Forms & Letters file",
+    "definition": "In Curve, the location where synced documents go.",
+    "category": "Cloud"
   },
   {
-    "term": "SaaS",
-    "definition": "Software as a Service. Us. We sell a software that is more of a service than a discreet product. This is a tech industry term.",
-    "category": "Software"
+    "term": "Forms Setup",
+    "definition": "Tools menu used to generate Medical History forms and resync Document Types.",
+    "category": "Tools"
   },
   {
-    "term": "Web app",
-    "definition": "Web based application. There is not native installer or application and all interaction is through a web browser. Think Facebook. You don\u2019t download facebook.exe, you just go to their website.",
-    "category": "Software"
+    "term": "FQHC",
+    "definition": "Federally Qualified Healthcare Center.",
+    "category": "Medical"
   },
   {
-    "term": "Native application",
-    "definition": "An application that runs on a target operating system. Think of slack.exe or old video games like Red Alert 2. It is a program you download and install. May or may not connect to an external service.",
-    "category": "Software"
+    "term": "Frequency Limitation",
+    "definition": "A rule that restricts how often a service is covered, such as cleanings every six months.",
+    "category": "Insurance"
   },
   {
-    "term": "SSO",
-    "definition": "Single Sign On. When a third party manages your login services. e.g. we log in to NexHealth tools using our google accounts.",
-    "category": "Software"
-  },
-  {
-    "term": "VM",
-    "definition": "Virtual Machine. A computer running in software instead of on hardware. We often have windows VMs housing our various EHR test environments.",
-    "category": "Software"
-  },
-  {
-    "term": "Patient",
-    "definition": "Someone receiving medical or dental care",
-    "category": "Payments"
-  },
-  {
-    "term": "Procedure Code",
-    "definition": "The medical or dental code which specifies the type of procedure which was performed; can vary by practice, e.g. \u201cD001\u201d might refer to a given type of procedure",
-    "category": "Payments"
-  },
-  {
-    "term": "Procedure",
-    "definition": "A medical or dental service which is provided to (usually \u201cperformed on\u201d) a patient, for which there is usually a fee. In the NexHealth model, Procedure refers to the specific event that occurred (time, date, Procedure Code, etc)",
-    "category": "Payments"
-  },
-  {
-    "term": "Charge",
-    "definition": "The abstract concept of something for which a Patient is charged (most often a Procedure)",
-    "category": "Payments"
-  },
-  {
-    "term": "Payment",
-    "definition": "A sum of money allocated to paying down the patient\u2019s balance - may be a Direct Payment if it\u2019s e.g. the Patient writing a check, or an Insurance Payment if it\u2019s the result of an Insurance Claim. Some EHRs refer to our use of the term Payment as a \u201cPay Split\u201d (i.e. if a Patient\u2019s credit card is charged $100 to pay for a $75 Charge and a $25 Charge, we record that as two Payments, but some systems would call that one payment with two pay splits)",
-    "category": "Payments"
-  },
-  {
-    "term": "Adjustment",
-    "definition": "A modification to the Patient\u2019s balance which is not itself considered a Charge or a Payment.  Examples of positive (balance increasing) adjustments might be late fees, processing fees, etc.  Examples of negative (balance decreasing) adjustments might be good patient discounts, or (in some EHRs) write-offs.",
-    "category": "Payments"
+    "term": "GPV",
+    "definition": "Gross Processing Volume. The $ that the office processes with NexHealth each month",
+    "category": "Finance"
   },
   {
     "term": "Guarantor",
@@ -375,8 +540,78 @@
     "category": "Payments"
   },
   {
-    "term": "Ledger",
-    "definition": "Financial terminology for a list of changes to the balance (amount owed) for someone or something. In our case, it\u2019s keeping track of how much a given patient (or their guarantor) owes the Practice. We collectively refer to reading Payments, Adjustments, and Charges as \u201creading the ledger\u201d",
+    "term": "HIPAA",
+    "definition": "Health Insurance Portability and Accountability Act, means that any medical offices or platforms handling PHI must meet a certain level of security and protection",
+    "category": "General"
+  },
+  {
+    "term": "HIPAA",
+    "definition": "The Health Insurance Portability and Accountability Act of 1996, a U.S. law that sets standards for protecting certain health information.",
+    "category": "Core HIPAA Terms"
+  },
+  {
+    "term": "HIPAA-Compliant",
+    "definition": "A general phrase used to describe products, services, or organizations that support HIPAA requirements.",
+    "category": "Vendors and Data Sharing"
+  },
+  {
+    "term": "HITECH",
+    "definition": "Health Information Technology for Economic and Clinical Health Act. A U.S. law that strengthened HIPAA enforcement and breach notification requirements.",
+    "category": "Laws / Compliance"
+  },
+  {
+    "term": "Hygiene Visit",
+    "definition": "A preventive dental appointment, often involving cleaning, exam support, and periodontal review.",
+    "category": "Dental / Medical"
+  },
+  {
+    "term": "ICD-10",
+    "definition": "International Classification of Diseases, Tenth Revision. Diagnostic coding system used in medical documentation and billing.",
+    "category": "Medical / Billing"
+  },
+  {
+    "term": "IIHI",
+    "definition": "Individually Identifiable Health Information. Health information that identifies, or could reasonably identify, a specific person.",
+    "category": "Core HIPAA Terms"
+  },
+  {
+    "term": "Imaging",
+    "definition": "In Open Dental, the location where synced documents go; practices may also use this term for the document manager.",
+    "category": "On-Prem"
+  },
+  {
+    "term": "Impermissible Use or Disclosure",
+    "definition": "A use or disclosure of PHI that is not allowed by the HIPAA Privacy Rule.",
+    "category": "Incident and Breach"
+  },
+  {
+    "term": "Incident Response",
+    "definition": "The process of identifying, investigating, containing, and addressing a security incident or breach.",
+    "category": "Incident and Breach"
+  },
+  {
+    "term": "Ins",
+    "definition": "Institution. The medical entity that is the parent of multiple practice locations. Small institutions could have one location. Larger ones could have dozens or hundreds of locations. Called an \u201cOrganization\u201d within Enlive.",
+    "category": "General"
+  },
+  {
+    "term": "Institution",
+    "definition": "In NexHealth Tools, each account is considered an institution and can contain multiple locations.",
+    "category": "Tools"
+  },
+  {
+    "term": "Insurance Carrier",
+    "definition": "An insurance company such as Aetna, Blue Cross, Cigna, or UnitedHealthcare.",
+    "category": "Medical"
+  },
+  {
+    "term": "Insurance Claim",
+    "definition": "A request for a given Insurance Subscription to pay for one or more Charges - often associated with estimates for how much will be paid per Charge, and sometimes write-offs for the uncovered amount per Charge",
+    "category": "Payments"
+  },
+  {
+    "term": "Insurance Claim Charge",
+    "definition": "The association between an Insurance Claim and one of the Charges that it is intended to cover.  Our model for this includes estimate and Write-off information.  E.g. \u201cWe estimate that claim 123 will pay $25 of the $50 owed for charge 456, and that the write-off will be $25\u201d.  This is a many-to-many relation - a given Charge may have multiple Insurance Claims, and a given Insurance Claim may cover multiple Charges.",
     "category": "Payments"
   },
   {
@@ -385,8 +620,8 @@
     "category": "Payments"
   },
   {
-    "term": "Employer",
-    "definition": "Many systems assume insurance is only offered through a guarantor\u2019s employer, and thus there will be a record of what company that person works for.",
+    "term": "Insurance Patient Coverage",
+    "definition": "The union of a patient with an Insurance Subscription - e.g. \u201cTimmy Son-of-Mary is covered under Mary\u2019s subscription to the Kaiser Gold 500 plan\u201d - not currently used in our payment models at the moment",
     "category": "Payments"
   },
   {
@@ -400,28 +635,703 @@
     "category": "Payments"
   },
   {
-    "term": "Insurance Patient Coverage",
-    "definition": "The union of a patient with an Insurance Subscription - e.g. \u201cTimmy Son-of-Mary is covered under Mary\u2019s subscription to the Kaiser Gold 500 plan\u201d - not currently used in our payment models at the moment",
+    "term": "Intake Form",
+    "definition": "A patient-facing form used to collect demographics, insurance, consent, and health information before a visit.",
+    "category": "Patient / Forms"
+  },
+  {
+    "term": "Integrity",
+    "definition": "Protecting ePHI from improper alteration or destruction.",
+    "category": "Security Rule"
+  },
+  {
+    "term": "Known Issue",
+    "definition": "A documented problem that has already been identified and may already have a workaround or planned fix.",
+    "category": "Support"
+  },
+  {
+    "term": "LDR",
+    "definition": "Lead Development Representative (Sales)",
+    "category": "Sales"
+  },
+  {
+    "term": "Least Privilege",
+    "definition": "A security principle under which users are given the lowest level of access needed to perform their duties.",
+    "category": "Vendors and Data Sharing"
+  },
+  {
+    "term": "Ledger",
+    "definition": "Financial terminology for a list of changes to the balance (amount owed) for someone or something. In our case, it\u2019s keeping track of how much a given patient (or their guarantor) owes the Practice. We collectively refer to reading Payments, Adjustments, and Charges as \u201creading the ledger\u201d",
     "category": "Payments"
   },
   {
-    "term": "Write-off",
-    "definition": "A portion of the original fee on a Charge which the Practice will not be collecting, usually because it exceeds the amount in their contract with a given Insurance Plan for a given Procedure Code.  Depending on the EHR, these may be recorded as Adjustments or via Insurance Claim-Charges",
+    "term": "Limited Data Set",
+    "definition": "PHI with certain direct identifiers removed that may be used or disclosed for limited purposes under HIPAA.",
+    "category": "Laws / Compliance"
+  },
+  {
+    "term": "Loc",
+    "definition": "Location. Place of business for a medical or dental practice. Larger institutions can have multiple locations or practices. Also see practice.",
+    "category": "General"
+  },
+  {
+    "term": "Location",
+    "definition": "In NexHealth Tools, a subdivision within an institution; settings can be adjusted at the institution or location level.",
+    "category": "Tools"
+  },
+  {
+    "term": "Low Probability of Compromise",
+    "definition": "A conclusion that PHI was likely not compromised after a risk assessment.",
+    "category": "Incident and Breach"
+  },
+  {
+    "term": "Medical History Form",
+    "definition": "A NexHealth form generated from EHR data that can write back medical conditions, allergies, and medications into associated EHR fields.",
+    "category": "Product"
+  },
+  {
+    "term": "Messaging",
+    "definition": "Tools menu used to resubmit SMS registration information when needed.",
+    "category": "Tools"
+  },
+  {
+    "term": "Minimum Necessary",
+    "definition": "A HIPAA standard requiring reasonable efforts to limit PHI access, use, or disclosure to the minimum needed for the intended purpose.",
+    "category": "Privacy and Disclosure"
+  },
+  {
+    "term": "Mitigation",
+    "definition": "Steps taken to reduce harmful effects of an improper use, disclosure, or incident involving PHI.",
+    "category": "Incident and Breach"
+  },
+  {
+    "term": "ModMed",
+    "definition": "Specialty medical, cloud-based EHR that does not use the Chrome extension.",
+    "category": "Cloud"
+  },
+  {
+    "term": "MQL",
+    "definition": "Marketing Qualified Lead",
+    "category": "Sales"
+  },
+  {
+    "term": "MSO",
+    "definition": "Medical Service Organization; medical equivalent of a DSO.",
+    "category": "Medical"
+  },
+  {
+    "term": "Multi-Site",
+    "definition": "A customer setup with multiple practice locations under one organization.",
+    "category": "Customers / Practice"
+  },
+  {
+    "term": "NADG",
+    "definition": "North American Dental Group, a large DSO customer",
+    "category": "Customers"
+  },
+  {
+    "term": "Native application",
+    "definition": "An application that runs on a target operating system. Think of slack.exe or old video games like Red Alert 2. It is a program you download and install. May or may not connect to an external service.",
+    "category": "Software"
+  },
+  {
+    "term": "NDM",
+    "definition": "Non-Decision Maker, but still important for adoption of NexHealth. Often the Office or Front Desk Manager.",
+    "category": "Sales"
+  },
+  {
+    "term": "NDP",
+    "definition": "National Dental Partners. Formerly the CDP (Community Dental Partners)",
+    "category": "Customers"
+  },
+  {
+    "term": "Need-to-Know Access",
+    "definition": "Access limited to the people who need the information to do their job.",
+    "category": "Access and Operations"
+  },
+  {
+    "term": "Net Revenue",
+    "definition": "This is represented by the fee that we charge for the transactions. We are assuming a rate of 2.5% (between card and card not present transactions to be conservative)",
+    "category": "Finance"
+  },
+  {
+    "term": "Network",
+    "definition": "Group of medical providers contracted with a specific insurance company for the highest payment levels.",
+    "category": "Medical"
+  },
+  {
+    "term": "New Patient Visit",
+    "definition": "A patient\u2019s first appointment with a practice, often involving registration, history, exam, and intake paperwork.",
+    "category": "Practice Operations"
+  },
+  {
+    "term": "NextGen Office",
+    "definition": "Medical, cloud-based EHR that does not use the Chrome extension.",
+    "category": "Cloud"
+  },
+  {
+    "term": "No Show",
+    "definition": "DrChrono term for a missed appointment.",
+    "category": "Cloud"
+  },
+  {
+    "term": "No-Show Rate",
+    "definition": "The percentage of appointments where patients fail to attend.",
+    "category": "Practice Operations"
+  },
+  {
+    "term": "Notice of Privacy Practices (NPP)",
+    "definition": "A document explaining how PHI may be used and disclosed and what rights patients have.",
+    "category": "Patient Rights"
+  },
+  {
+    "term": "NPI",
+    "definition": "National Provider Identifier. A unique 10-digit number assigned to healthcare providers in the U.S.",
+    "category": "Medical / Billing"
+  },
+  {
+    "term": "NTKF",
+    "definition": "Need to Know Friday. Our internal weekly broadcast about key product changes and new features to know about!",
+    "category": "General"
+  },
+  {
+    "term": "OB",
+    "definition": "Online Booking",
+    "category": "General"
+  },
+  {
+    "term": "OCR",
+    "definition": "Office for Civil Rights. The HHS office that enforces HIPAA.",
+    "category": "Laws / Compliance"
+  },
+  {
+    "term": "OM",
+    "definition": "Office Manager",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Open Dental",
+    "definition": "Sometimes shortened to OD. A mostly open-source EHR that is usually single location, but supports multi-location and enterprise customers.",
+    "category": "On-Prem"
+  },
+  {
+    "term": "Operatory",
+    "definition": "Commonly shortened to op in code. Exam room or chair that the doctor or hygienist works in. May also refer to the column that the office manager uses to schedule a doctor/hygienist in the PMS. Some customers will assign create an op per provider, but that is rare.",
+    "category": "General"
+  },
+  {
+    "term": "Orthodontist",
+    "definition": "A dental specialist whose focus is the treatment of malocclusion of the teeth and surrounding structures.",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Orthotrac",
+    "definition": "Orthodontics-focused, on-prem/server-based EHR.",
+    "category": "On-Prem"
+  },
+  {
+    "term": "Outstanding Balance",
+    "definition": "The unpaid amount still owed on a patient account.",
+    "category": "Payments / Finance"
+  },
+  {
+    "term": "Packet",
+    "definition": "A collection of forms.",
+    "category": "General"
+  },
+  {
+    "term": "Parent Organization",
+    "definition": "The larger entity that owns or manages one or more practice locations.",
+    "category": "Customers / Practice"
+  },
+  {
+    "term": "Patient",
+    "definition": "Someone receiving medical or dental care",
     "category": "Payments"
   },
   {
-    "term": "Insurance Claim",
-    "definition": "A request for a given Insurance Subscription to pay for one or more Charges - often associated with estimates for how much will be paid per Charge, and sometimes write-offs for the uncovered amount per Charge",
+    "term": "Patient Comments",
+    "definition": "In Cloud 9, the area where medical allergies, conditions, and medications sync.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Patient Docs",
+    "definition": "In eCW, the location where synced documents/forms upload.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Patient File",
+    "definition": "In Dentrix Ascend, the patient chart holding demographic information, medical history, alerts, and insurance information.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Patient Paperwork",
+    "definition": "Medical term often used instead of forms.",
+    "category": "Medical"
+  },
+  {
+    "term": "Patient Profile",
+    "definition": "In Eaglesoft, the patient chart holding demographic information, medical history, alerts, and insurance information.",
+    "category": "On-Prem"
+  },
+  {
+    "term": "Patient Responsibility",
+    "definition": "The amount the patient owes after insurance processing, discounts, or adjustments.",
+    "category": "Payments / Finance"
+  },
+  {
+    "term": "Payment",
+    "definition": "A sum of money allocated to paying down the patient\u2019s balance - may be a Direct Payment if it\u2019s e.g. the Patient writing a check, or an Insurance Payment if it\u2019s the result of an Insurance Claim. Some EHRs refer to our use of the term Payment as a \u201cPay Split\u201d (i.e. if a Patient\u2019s credit card is charged $100 to pay for a $75 Charge and a $25 Charge, we record that as two Payments, but some systems would call that one payment with two pay splits)",
     "category": "Payments"
   },
   {
-    "term": "Insurance Claim Charge",
-    "definition": "The association between an Insurance Claim and one of the Charges that it is intended to cover.  Our model for this includes estimate and Write-off information.  E.g. \u201cWe estimate that claim 123 will pay $25 of the $50 owed for charge 456, and that the write-off will be $25\u201d.  This is a many-to-many relation - a given Charge may have multiple Insurance Claims, and a given Insurance Claim may cover multiple Charges.",
+    "term": "Payments",
+    "definition": "A product we offer to collect payments.",
+    "category": "General"
+  },
+  {
+    "term": "PDFWS",
+    "definition": "PDFWebServer. The Django app that runs Enlive. In production, this runs at [forms.nexhealth.com](http://forms.nexhealth.com/). It is mostly deprecated and only remains to support some legacy workflows.",
+    "category": "Engineering"
+  },
+  {
+    "term": "Perio",
+    "definition": "Shortened term for more intensive gum cleaning or periodontal maintenance, often recommended every 3-4 months based on patient need.",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Periodontal",
+    "definition": "Pertaining to the supporting and surrounding tissues or gums of the teeth.",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Periodontal Maintenance",
+    "definition": "More in-depth cleaning around the gum area for patients with periodontal disease or elevated risk; often referred to as \"Perio.\"",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Person or Entity Authentication",
+    "definition": "Verifying that a person or system seeking access is who or what it claims to be.",
+    "category": "Security Rule"
+  },
+  {
+    "term": "PHI",
+    "definition": "Protected Health Information, with regards to HIPAA compliance. A subset of PII. Any information about health status, provision of health care, or payment for health care that is created or collected by a Covered Entity, and can be linked to a specific individual e.g. test results, insurance payments, etc.",
+    "category": "General"
+  },
+  {
+    "term": "PHI",
+    "definition": "Protected Health Information. Individually identifiable health information protected under HIPAA.",
+    "category": "Core HIPAA Terms"
+  },
+  {
+    "term": "Physical Safeguards",
+    "definition": "Measures used to protect buildings, workstations, devices, and systems containing ePHI.",
+    "category": "Security Rule"
+  },
+  {
+    "term": "PII",
+    "definition": "Personally Identifiable Information, a superset of PHI",
+    "category": "General"
+  },
+  {
+    "term": "PMS",
+    "definition": "Practice Management System - software medical & dental practices use to run their practice. Sometimes used synonymously with EMR and EHR.",
+    "category": "General"
+  },
+  {
+    "term": "Practice",
+    "definition": "Single location or few locations (<5). Also referred to as a location.",
+    "category": "General"
+  },
+  {
+    "term": "Practice Administrator",
+    "definition": "Medical term used as the equivalent of an office manager.",
+    "category": "Medical"
+  },
+  {
+    "term": "Pre-Authorization",
+    "definition": "Insurer review or approval required before certain treatments or services are performed.",
+    "category": "Insurance"
+  },
+  {
+    "term": "Predetermination",
+    "definition": "A request sent to insurance before treatment to estimate coverage, often used in dental workflows.",
+    "category": "Insurance"
+  },
+  {
+    "term": "Privacy Rule",
+    "definition": "The HIPAA rule that sets national standards for the use and disclosure of PHI and establishes patient rights.",
+    "category": "Privacy and Disclosure"
+  },
+  {
+    "term": "Procedure",
+    "definition": "A medical or dental service which is provided to (usually \u201cperformed on\u201d) a patient, for which there is usually a fee. In the NexHealth model, Procedure refers to the specific event that occurred (time, date, Procedure Code, etc)",
     "category": "Payments"
+  },
+  {
+    "term": "Procedure Code",
+    "definition": "The medical or dental code which specifies the type of procedure which was performed; can vary by practice, e.g. \u201cD001\u201d might refer to a given type of procedure",
+    "category": "Payments"
+  },
+  {
+    "term": "Production [Dental office]",
+    "definition": "Dollar value of an appointment. Keep in mind that dental practices are essentially businesses and the practice is interested in high production appointments (e.g. a root canal or extraction) that would bring in more money.",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Production [Engineering]",
+    "definition": "Where our server software that can be publicly accessed by our customers and their patients. Thus if a software fix/change/feature is \u201cin production\u201d that means customers/patients can access it.",
+    "category": "Engineering"
+  },
+  {
+    "term": "Progress Note",
+    "definition": "In eCW, the patient chart view holding demographic information, medical history, alerts, and insurance information; it must have a future appointment to sync.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Prophy",
+    "definition": "Procedure code used in dental PMS, short for \u201cprophylaxis\u201d. What you would typically think of as a regular cleaning.",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Proposed Treatment",
+    "definition": "Treatment that has been recommended but not yet completed.",
+    "category": "Dental / Medical"
+  },
+  {
+    "term": "Provider",
+    "definition": "A doctor, nurse, hygienist, or someone else that provides care to a patient. Also refers to who bills the insurance.",
+    "category": "General"
+  },
+  {
+    "term": "Provider Schedule Template",
+    "definition": "A scheduling framework that defines how provider time is organized across days, hours, or appointment types.",
+    "category": "Scheduling / Systems"
+  },
+  {
+    "term": "PX",
+    "definition": "Patient Experience. The team formerly known as SaaS.",
+    "category": "Engineering"
+  },
+  {
+    "term": "Queue",
+    "definition": "A backlog of tasks, messages, or sync jobs waiting to be processed.",
+    "category": "Engineering / Systems"
+  },
+  {
+    "term": "RCA",
+    "definition": "Root Cause Analysis. Investigation into the underlying cause of a problem or incident.",
+    "category": "Support / Operations"
+  },
+  {
+    "term": "Re-Key",
+    "definition": "Manually entering or transferring data back into an EHR system.",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Recall",
+    "definition": "A reminder scheduled for some period of time after a previous appointment prompting the patient to come back in.",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Recall Interval",
+    "definition": "The expected time between routine follow-up visits, such as six months or three months.",
+    "category": "Scheduling / Dental"
+  },
+  {
+    "term": "Recurring Care Uptake",
+    "definition": "Medical term used as the equivalent of recare/recall.",
+    "category": "Medical"
+  },
+  {
+    "term": "Resin",
+    "definition": "Cavities (fillings)",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Restriction Request",
+    "definition": "A request by the patient to limit certain uses or disclosures of PHI.",
+    "category": "Patient Rights"
+  },
+  {
+    "term": "Retry",
+    "definition": "A repeated attempt to complete a failed sync, writeback, or related system action.",
+    "category": "Engineering / Systems"
+  },
+  {
+    "term": "Returning Patient",
+    "definition": "A patient who has previously been seen by the practice.",
+    "category": "Practice Operations"
+  },
+  {
+    "term": "RevOps",
+    "definition": "Revenue Operations workflow used for requests such as account name changes, account hierarchy/location corrections, or updating the EHR on file.",
+    "category": "Support"
+  },
+  {
+    "term": "Right of Access",
+    "definition": "A patient\u2019s right to inspect or obtain a copy of PHI in a designated record set, with limited exceptions.",
+    "category": "Patient Rights"
+  },
+  {
+    "term": "Right to Amend",
+    "definition": "A patient\u2019s right to request a correction or amendment to PHI in certain records.",
+    "category": "Patient Rights"
+  },
+  {
+    "term": "Risk Assessment",
+    "definition": "An evaluation used to determine whether there is a low probability that PHI has been compromised.",
+    "category": "Incident and Breach"
+  },
+  {
+    "term": "ROI",
+    "definition": "Release of Information. The process or authorization used to disclose a patient\u2019s records to another party.",
+    "category": "Laws / Compliance"
+  },
+  {
+    "term": "Role-Based Access",
+    "definition": "Access granted according to a user\u2019s job responsibilities.",
+    "category": "Access and Operations"
+  },
+  {
+    "term": "SaaS",
+    "definition": "Software as a Service. Us. We sell a software that is more of a service than a discreet product. This is a tech industry term.",
+    "category": "Software"
+  },
+  {
+    "term": "Sanction Policy",
+    "definition": "A policy describing consequences for workforce members who fail to comply with privacy or security requirements.",
+    "category": "Access and Operations"
+  },
+  {
+    "term": "SBS",
+    "definition": "Simply Beautiful Smiles",
+    "category": "Customers"
+  },
+  {
+    "term": "Scaling and Root Planing (SRP)",
+    "definition": "Treatment for active gum disease that removes plaque and tartar from the tooth surface and below the gum line to clean infected gum pockets.",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Schedule Settings",
+    "definition": "Tools menu used to set Book On minutes and Required minutes before booking.",
+    "category": "Tools"
+  },
+  {
+    "term": "SDC",
+    "definition": "SmileDirectClub - API partner",
+    "category": "Customers"
+  },
+  {
+    "term": "SDR",
+    "definition": "Sales Development Representative - Outbound Sales",
+    "category": "Sales"
+  },
+  {
+    "term": "Secure Disposal",
+    "definition": "Proper destruction or disposal of media or information so PHI cannot be reconstructed or recovered.",
+    "category": "Access and Operations"
+  },
+  {
+    "term": "Security Incident",
+    "definition": "The attempted or successful unauthorized access, use, disclosure, modification, or destruction of information, or interference with system operations.",
+    "category": "Incident and Breach"
+  },
+  {
+    "term": "Security Rule",
+    "definition": "The HIPAA rule that sets national standards to protect ePHI.",
+    "category": "Security Rule"
+  },
+  {
+    "term": "Self-Pay",
+    "definition": "A patient payment model in which the patient pays directly without insurance coverage.",
+    "category": "Payments / Insurance"
+  },
+  {
+    "term": "Session Timeout",
+    "definition": "A system setting that ends a session after inactivity.",
+    "category": "Access and Operations"
+  },
+  {
+    "term": "SFTP",
+    "definition": "Secure File Transfer Protocol. A secure method for moving files between systems.",
+    "category": "Engineering / Systems"
+  },
+  {
+    "term": "Shared Responsibility",
+    "definition": "The idea that both the platform/vendor and the customer share responsibility for protecting PHI.",
+    "category": "Vendors and Data Sharing"
+  },
+  {
+    "term": "Short Notice List",
+    "definition": "Hot-list designation for patients who want a sooner appointment in Curve and Denticon.",
+    "category": "Cloud"
+  },
+  {
+    "term": "SLA",
+    "definition": "Service Level Agreement. The amount of time (1 hour) we have to respond to clients as per their contracts. It is not actually written in their contracts, however NexHealth uses it as a metric to determine how quickly we are able to respond to customers' inquiries.",
+    "category": "General"
+  },
+  {
+    "term": "Smart Commands",
+    "definition": "Reserved keywords that can be used to interpolate dynamic content into our campaigns and templates e.g. PATIENTNAME Some of these can also inject more interactive bits like buttons",
+    "category": "Product"
+  },
+  {
+    "term": "Smart Forms",
+    "definition": "Forms that are configured to be sent / shown conditionally based on many factors to automate exercising the right forms at the right time",
+    "category": "Product"
+  },
+  {
+    "term": "SmartDocs",
+    "definition": "In Eaglesoft, the location where scanned documents/forms are stored.",
+    "category": "On-Prem"
+  },
+  {
+    "term": "SMB",
+    "definition": "Small/Medium Business",
+    "category": "Sales"
+  },
+  {
+    "term": "Sooner if possible",
+    "definition": "Hot-list designation for patients who want a sooner appointment in Eaglesoft and Cloud 9.",
+    "category": "General"
+  },
+  {
+    "term": "SQL",
+    "definition": "Sales Qualified Leads",
+    "category": "Sales"
+  },
+  {
+    "term": "SSO",
+    "definition": "Single Sign On. When a third party manages your login services. e.g. we log in to NexHealth tools using our google accounts.",
+    "category": "Software"
+  },
+  {
+    "term": "Subcontractor / Downstream Vendor",
+    "definition": "A vendor working for a business associate that may also create, receive, maintain, or transmit PHI.",
+    "category": "Vendors and Data Sharing"
+  },
+  {
+    "term": "Sync Failure",
+    "definition": "A failed read or write event between NexHealth and an external system.",
+    "category": "Engineering / Systems"
+  },
+  {
+    "term": "Sync Overview",
+    "definition": "Tools menu used to check sync read and write status.",
+    "category": "Tools"
+  },
+  {
+    "term": "Synchronizer",
+    "definition": "Our Trademarked term for our integration with Health Record Systems",
+    "category": "Engineering"
+  },
+  {
+    "term": "Tax ID / TIN",
+    "definition": "Taxpayer Identification Number used for practice or billing identification.",
+    "category": "Medical / Billing"
+  },
+  {
+    "term": "Technical Safeguards",
+    "definition": "Technology and related policies used to protect ePHI and control access to it.",
+    "category": "Security Rule"
+  },
+  {
+    "term": "Term",
+    "definition": "Definition",
+    "category": "Category"
   },
   {
     "term": "Test",
     "definition": "This is a test",
     "category": NaN
+  },
+  {
+    "term": "Tools",
+    "definition": "Usually used to refer to the NexHealth internal tools/configuration platform. See the tools section",
+    "category": "Engineering"
+  },
+  {
+    "term": "TPO",
+    "definition": "Treatment, Payment, and Healthcare Operations. Common categories of permitted PHI use and disclosure without separate authorization in many situations.",
+    "category": "Privacy and Disclosure"
+  },
+  {
+    "term": "Transmission Security",
+    "definition": "Measures that protect ePHI when it is sent over electronic networks.",
+    "category": "Security Rule"
+  },
+  {
+    "term": "Treatment Plan",
+    "definition": "A documented set of recommended procedures or next steps for a patient\u2019s care.",
+    "category": "Dental / Medical"
+  },
+  {
+    "term": "Triage",
+    "definition": "The process of assessing and prioritizing incoming issues based on urgency, impact, or type.",
+    "category": "Support"
+  },
+  {
+    "term": "Unique User ID",
+    "definition": "A unique name or number assigned to identify and track a user\u2019s identity.",
+    "category": "Security Rule"
+  },
+  {
+    "term": "Use",
+    "definition": "The sharing, application, examination, or analysis of PHI within the organization that holds it.",
+    "category": "Privacy and Disclosure"
+  },
+  {
+    "term": "User Deprovisioning",
+    "definition": "The process of removing or disabling access when it is no longer needed.",
+    "category": "Access and Operations"
+  },
+  {
+    "term": "User Provisioning",
+    "definition": "The process of granting users appropriate system access.",
+    "category": "Access and Operations"
+  },
+  {
+    "term": "VM",
+    "definition": "Virtual Machine. A computer running in software instead of on hardware. We often have windows VMs housing our various EHR test environments.",
+    "category": "Software"
+  },
+  {
+    "term": "Waitlist",
+    "definition": "General term for a list of patients who want an earlier appointment; some systems use EHR-specific alternatives like ASAP List, Appointment Wait List, or Short Notice List.",
+    "category": "General"
+  },
+  {
+    "term": "Web app",
+    "definition": "Web based application. There is not native installer or application and all interaction is through a web browser. Think Facebook. You don\u2019t download facebook.exe, you just go to their website.",
+    "category": "Software"
+  },
+  {
+    "term": "Webhook",
+    "definition": "An automated event-based notification sent from one system to another when something happens.",
+    "category": "Engineering / Systems"
+  },
+  {
+    "term": "Workaround",
+    "definition": "A temporary method used to avoid or reduce the impact of an issue until a full fix is available.",
+    "category": "Support"
+  },
+  {
+    "term": "Workforce Member",
+    "definition": "Employees, volunteers, trainees, and other persons under the direct control of a covered entity or business associate.",
+    "category": "Access and Operations"
+  },
+  {
+    "term": "Working Hours",
+    "definition": "eCW term for schedule blocks or blocks on the schedule.",
+    "category": "Cloud"
+  },
+  {
+    "term": "Write-off",
+    "definition": "A portion of the original fee on a Charge which the Practice will not be collecting, usually because it exceeds the amount in their contract with a given Insurance Plan for a given Procedure Code.  Depending on the EHR, these may be recorded as Adjustments or via Insurance Claim-Charges",
+    "category": "Payments"
   }
 ]
