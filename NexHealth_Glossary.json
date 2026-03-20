@@ -1,0 +1,422 @@
+[
+  {
+    "term": "GPV",
+    "definition": "Gross Processing Volume. The $ that the office processes with NexHealth each month",
+    "category": "Finance"
+  },
+  {
+    "term": "Net Revenue",
+    "definition": "This is represented by the fee that we charge for the transactions. We are assuming a rate of 2.5% (between card and card not present transactions to be conservative)",
+    "category": "Finance"
+  },
+  {
+    "term": "Card Present transaction",
+    "definition": "Transactions that happen in the office at the terminal. These have lower rates because they are less risky and thus less expensive",
+    "category": "Finance"
+  },
+  {
+    "term": "Card Not Present Transaction",
+    "definition": "Transactions that happen via our email / text to pay capability. They are more risky and thus more expensive",
+    "category": "Finance"
+  },
+  {
+    "term": "Smart Commands",
+    "definition": "Reserved keywords that can be used to interpolate dynamic content into our campaigns and templates e.g. PATIENTNAME Some of these can also inject more interactive bits like buttons",
+    "category": "Product"
+  },
+  {
+    "term": "Smart Forms",
+    "definition": "Forms that are configured to be sent / shown conditionally based on many factors to automate exercising the right forms at the right time",
+    "category": "Product"
+  },
+  {
+    "term": "SDC",
+    "definition": "SmileDirectClub - API partner",
+    "category": "Customers"
+  },
+  {
+    "term": "SBS",
+    "definition": "Simply Beautiful Smiles",
+    "category": "Customers"
+  },
+  {
+    "term": "NDP",
+    "definition": "National Dental Partners. Formerly the CDP (Community Dental Partners)",
+    "category": "Customers"
+  },
+  {
+    "term": "CDP",
+    "definition": "Community Dental Partners (is now called National Dental Partners)",
+    "category": "Customers"
+  },
+  {
+    "term": "NADG",
+    "definition": "North American Dental Group, a large DSO customer",
+    "category": "Customers"
+  },
+  {
+    "term": "DSO",
+    "definition": "Dental Service Organization - Multiple location institution. Often large, 10-30 offices. Has full executive team, marketing, etc.",
+    "category": "General"
+  },
+  {
+    "term": "EHR",
+    "definition": "Electronic Health Record. Used interchangeably with EMR and PMS. Engineering typically uses EHR instead of PMS or EMR.",
+    "category": "General"
+  },
+  {
+    "term": "eCW",
+    "definition": "eClinicalWorks - Cloud-based Practice Management System",
+    "category": "Cloud"
+  },
+  {
+    "term": "DXA",
+    "definition": "Dentrix Ascend. A cloud version of Dentrix. Please never refer to this as dentrix because it can be confused with regular on-prem Dentrix and Dentrix Enterprise",
+    "category": "Cloud"
+  },
+  {
+    "term": "DXE",
+    "definition": "Dentrix Enterprise. A multi-location EHR that shares a similar UI with the \u2014 typically single location \u2014 Dentrix. When cutting tickets for DXE, please use dentrix enterprise or dxe and not just dentrix''",
+    "category": "On-Prem"
+  },
+  {
+    "term": "Open Dental",
+    "definition": "Sometimes shortened to OD. A mostly open-source EHR that is usually single location, but supports multi-location and enterprise customers.",
+    "category": "On-Prem"
+  },
+  {
+    "term": "HIPAA",
+    "definition": "Health Insurance Portability and Accountability Act, means that any medical offices or platforms handling PHI must meet a certain level of security and protection",
+    "category": "General"
+  },
+  {
+    "term": "PHI",
+    "definition": "Protected Health Information, with regards to HIPAA compliance. A subset of PII. Any information about health status, provision of health care, or payment for health care that is created or collected by a Covered Entity, and can be linked to a specific individual e.g. test results, insurance payments, etc.",
+    "category": "General"
+  },
+  {
+    "term": "PII",
+    "definition": "Personally Identifiable Information, a superset of PHI",
+    "category": "General"
+  },
+  {
+    "term": "EMR",
+    "definition": "Electronic Medical Record. Sometimes used synonymously with EHR and PMS.",
+    "category": "General"
+  },
+  {
+    "term": "PMS",
+    "definition": "Practice Management System - software medical & dental practices use to run their practice. Sometimes used synonymously with EMR and EHR.",
+    "category": "General"
+  },
+  {
+    "term": "DPMS",
+    "definition": "Dental Practice Management System (see EHR)",
+    "category": "General"
+  },
+  {
+    "term": "Ins",
+    "definition": "Institution. The medical entity that is the parent of multiple practice locations. Small institutions could have one location. Larger ones could have dozens or hundreds of locations. Called an \u201cOrganization\u201d within Enlive.",
+    "category": "General"
+  },
+  {
+    "term": "Loc",
+    "definition": "Location. Place of business for a medical or dental practice. Larger institutions can have multiple locations or practices. Also see practice.",
+    "category": "General"
+  },
+  {
+    "term": "NTKF",
+    "definition": "Need to Know Friday. Our internal weekly broadcast about key product changes and new features to know about!",
+    "category": "General"
+  },
+  {
+    "term": "Payments",
+    "definition": "A product we offer to collect payments.",
+    "category": "General"
+  },
+  {
+    "term": "Practice",
+    "definition": "Single location or few locations (<5). Also referred to as a location.",
+    "category": "General"
+  },
+  {
+    "term": "Provider",
+    "definition": "A doctor, nurse, hygienist, or someone else that provides care to a patient. Also refers to who bills the insurance.",
+    "category": "General"
+  },
+  {
+    "term": "Operatory",
+    "definition": "Commonly shortened to op in code. Exam room or chair that the doctor or hygienist works in. May also refer to the column that the office manager uses to schedule a doctor/hygienist in the PMS. Some customers will assign create an op per provider, but that is rare.",
+    "category": "General"
+  },
+  {
+    "term": "Packet",
+    "definition": "A collection of forms.",
+    "category": "General"
+  },
+  {
+    "term": "SLA",
+    "definition": "Service Level Agreement. The amount of time (1 hour) we have to respond to clients as per their contracts. It is not actually written in their contracts, however NexHealth uses it as a metric to determine how quickly we are able to respond to customers' inquiries.",
+    "category": "General"
+  },
+  {
+    "term": "OB",
+    "definition": "Online Booking",
+    "category": "General"
+  },
+  {
+    "term": "CSAT",
+    "definition": "Customer Satisfaction Score",
+    "category": "General"
+  },
+  {
+    "term": "CS",
+    "definition": "Customer Support",
+    "category": "General"
+  },
+  {
+    "term": "A2P",
+    "definition": "Application-to-Person messaging (as opposed to person-to-person messaging like when you\u2019re messaging your friends)",
+    "category": "General"
+  },
+  {
+    "term": "Backend",
+    "definition": "The Ruby on Rails app that NexHealth hosts. It serves our SaaS app, and it is where the sync agents send the data to.",
+    "category": "Engineering"
+  },
+  {
+    "term": "DN",
+    "definition": "Data Networks - Previous name of the Sync engineering team. Team builds and maintains the synchronization agents that allow data to flow to and from our customers\u2019 systems",
+    "category": "Engineering"
+  },
+  {
+    "term": "Tools",
+    "definition": "Usually used to refer to the NexHealth internal tools/configuration platform. See the tools section",
+    "category": "Engineering"
+  },
+  {
+    "term": "PX",
+    "definition": "Patient Experience. The team formerly known as SaaS.",
+    "category": "Engineering"
+  },
+  {
+    "term": "Production [Engineering]",
+    "definition": "Where our server software that can be publicly accessed by our customers and their patients. Thus if a software fix/change/feature is \u201cin production\u201d that means customers/patients can access it.",
+    "category": "Engineering"
+  },
+  {
+    "term": "PDFWS",
+    "definition": "PDFWebServer. The Django app that runs Enlive. In production, this runs at [forms.nexhealth.com](http://forms.nexhealth.com/). It is mostly deprecated and only remains to support some legacy workflows.",
+    "category": "Engineering"
+  },
+  {
+    "term": "AWS",
+    "definition": "Amazon Web Services",
+    "category": "Engineering"
+  },
+  {
+    "term": "Arch [Engineering]",
+    "definition": "A Linux distro.",
+    "category": "Engineering"
+  },
+  {
+    "term": "CE",
+    "definition": "Chrome Extension. A tool used by the cloud team to capture info from cloud EHR customers. Not to be confused with Halo: Combat Evolved.",
+    "category": "Engineering"
+  },
+  {
+    "term": "Synchronizer",
+    "definition": "Our Trademarked term for our integration with Health Record Systems",
+    "category": "Engineering"
+  },
+  {
+    "term": "Agent (Sync overview page)",
+    "definition": "The number of enabled sync agents for the data source.",
+    "category": "Tools"
+  },
+  {
+    "term": "Beacon",
+    "definition": "Periodic check-ins from our agents to report that they\u2019re running, and any recent errors they\u2019ve encountered.",
+    "category": "Tools"
+  },
+  {
+    "term": "SMB",
+    "definition": "Small/Medium Business",
+    "category": "Sales"
+  },
+  {
+    "term": "SQL",
+    "definition": "Sales Qualified Leads",
+    "category": "Sales"
+  },
+  {
+    "term": "SDR",
+    "definition": "Sales Development Representative - Outbound Sales",
+    "category": "Sales"
+  },
+  {
+    "term": "LDR",
+    "definition": "Lead Development Representative (Sales)",
+    "category": "Sales"
+  },
+  {
+    "term": "NDM",
+    "definition": "Non-Decision Maker, but still important for adoption of NexHealth. Often the Office or Front Desk Manager.",
+    "category": "Sales"
+  },
+  {
+    "term": "MQL",
+    "definition": "Marketing Qualified Lead",
+    "category": "Sales"
+  },
+  {
+    "term": "DM",
+    "definition": "Decision Maker - often the doctor or dentist.",
+    "category": "Sales"
+  },
+  {
+    "term": "Production [Dental office]",
+    "definition": "Dollar value of an appointment. Keep in mind that dental practices are essentially businesses and the practice is interested in high production appointments (e.g. a root canal or extraction) that would bring in more money.",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "OM",
+    "definition": "Office Manager",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Resin",
+    "definition": "Cavities (fillings)",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Recall",
+    "definition": "A reminder scheduled for some period of time after a previous appointment prompting the patient to come back in.",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Prophy",
+    "definition": "Procedure code used in dental PMS, short for \u201cprophylaxis\u201d. What you would typically think of as a regular cleaning.",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "FM",
+    "definition": "Family Messaging",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Arch [Dental]",
+    "definition": "Term used to refer to upper or lower denture",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "Abutment",
+    "definition": "A tooth (or implant) that supports a dental prothesis (fake tooth)",
+    "category": "Dental/ Medical"
+  },
+  {
+    "term": "SaaS",
+    "definition": "Software as a Service. Us. We sell a software that is more of a service than a discreet product. This is a tech industry term.",
+    "category": "Software"
+  },
+  {
+    "term": "Web app",
+    "definition": "Web based application. There is not native installer or application and all interaction is through a web browser. Think Facebook. You don\u2019t download facebook.exe, you just go to their website.",
+    "category": "Software"
+  },
+  {
+    "term": "Native application",
+    "definition": "An application that runs on a target operating system. Think of slack.exe or old video games like Red Alert 2. It is a program you download and install. May or may not connect to an external service.",
+    "category": "Software"
+  },
+  {
+    "term": "SSO",
+    "definition": "Single Sign On. When a third party manages your login services. e.g. we log in to NexHealth tools using our google accounts.",
+    "category": "Software"
+  },
+  {
+    "term": "VM",
+    "definition": "Virtual Machine. A computer running in software instead of on hardware. We often have windows VMs housing our various EHR test environments.",
+    "category": "Software"
+  },
+  {
+    "term": "Patient",
+    "definition": "Someone receiving medical or dental care",
+    "category": "Payments"
+  },
+  {
+    "term": "Procedure Code",
+    "definition": "The medical or dental code which specifies the type of procedure which was performed; can vary by practice, e.g. \u201cD001\u201d might refer to a given type of procedure",
+    "category": "Payments"
+  },
+  {
+    "term": "Procedure",
+    "definition": "A medical or dental service which is provided to (usually \u201cperformed on\u201d) a patient, for which there is usually a fee. In the NexHealth model, Procedure refers to the specific event that occurred (time, date, Procedure Code, etc)",
+    "category": "Payments"
+  },
+  {
+    "term": "Charge",
+    "definition": "The abstract concept of something for which a Patient is charged (most often a Procedure)",
+    "category": "Payments"
+  },
+  {
+    "term": "Payment",
+    "definition": "A sum of money allocated to paying down the patient\u2019s balance - may be a Direct Payment if it\u2019s e.g. the Patient writing a check, or an Insurance Payment if it\u2019s the result of an Insurance Claim. Some EHRs refer to our use of the term Payment as a \u201cPay Split\u201d (i.e. if a Patient\u2019s credit card is charged $100 to pay for a $75 Charge and a $25 Charge, we record that as two Payments, but some systems would call that one payment with two pay splits)",
+    "category": "Payments"
+  },
+  {
+    "term": "Adjustment",
+    "definition": "A modification to the Patient\u2019s balance which is not itself considered a Charge or a Payment.  Examples of positive (balance increasing) adjustments might be late fees, processing fees, etc.  Examples of negative (balance decreasing) adjustments might be good patient discounts, or (in some EHRs) write-offs.",
+    "category": "Payments"
+  },
+  {
+    "term": "Guarantor",
+    "definition": "The person responsible for paying the Patient\u2019s bills (in adult practice commonly the patient themselves, but with families may be a different person)  In examples below we\u2019ll refer to one named \u201cMary Head-of-Household\u201d",
+    "category": "Payments"
+  },
+  {
+    "term": "Ledger",
+    "definition": "Financial terminology for a list of changes to the balance (amount owed) for someone or something. In our case, it\u2019s keeping track of how much a given patient (or their guarantor) owes the Practice. We collectively refer to reading Payments, Adjustments, and Charges as \u201creading the ledger\u201d",
+    "category": "Payments"
+  },
+  {
+    "term": "Insurance Company",
+    "definition": "The organization offering an Insurance Plan, e.g. \u201cKaiser\u201d, \u201cAetna\u201d, etc.",
+    "category": "Payments"
+  },
+  {
+    "term": "Employer",
+    "definition": "Many systems assume insurance is only offered through a guarantor\u2019s employer, and thus there will be a record of what company that person works for.",
+    "category": "Payments"
+  },
+  {
+    "term": "Insurance Plan",
+    "definition": "The representation of an offering from a given Insurance Company at a Practice - might have many Insurance Subscriptions or only one, depending on how specific it is.  e.g. \u201cKaiser Gold 500 Plan\u201d  Insurance Plans usually have a relation to an Employer also - e.g. there might be two entries named \u201cKaiser Gold 500 Plan\u201d in the list of Insurance Plans: one offered by Employer A and one offered by Employer B.",
+    "category": "Payments"
+  },
+  {
+    "term": "Insurance Subscription",
+    "definition": "The union of an Insurance Plan with a given Guarantor - e.g. \u201cMary Head-of-Household is subscribed to the Kaiser Gold 500 plan at employer SomeCo\u201d",
+    "category": "Payments"
+  },
+  {
+    "term": "Insurance Patient Coverage",
+    "definition": "The union of a patient with an Insurance Subscription - e.g. \u201cTimmy Son-of-Mary is covered under Mary\u2019s subscription to the Kaiser Gold 500 plan\u201d - not currently used in our payment models at the moment",
+    "category": "Payments"
+  },
+  {
+    "term": "Write-off",
+    "definition": "A portion of the original fee on a Charge which the Practice will not be collecting, usually because it exceeds the amount in their contract with a given Insurance Plan for a given Procedure Code.  Depending on the EHR, these may be recorded as Adjustments or via Insurance Claim-Charges",
+    "category": "Payments"
+  },
+  {
+    "term": "Insurance Claim",
+    "definition": "A request for a given Insurance Subscription to pay for one or more Charges - often associated with estimates for how much will be paid per Charge, and sometimes write-offs for the uncovered amount per Charge",
+    "category": "Payments"
+  },
+  {
+    "term": "Insurance Claim Charge",
+    "definition": "The association between an Insurance Claim and one of the Charges that it is intended to cover.  Our model for this includes estimate and Write-off information.  E.g. \u201cWe estimate that claim 123 will pay $25 of the $50 owed for charge 456, and that the write-off will be $25\u201d.  This is a many-to-many relation - a given Charge may have multiple Insurance Claims, and a given Insurance Claim may cover multiple Charges.",
+    "category": "Payments"
+  }
+]
