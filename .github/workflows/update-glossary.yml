@@ -1,0 +1,48 @@
+name: Update Glossary
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # runs every hour
+  workflow_dispatch:       # lets you trigger it manually too
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install pandas requests
+
+      - name: Convert CSV to JSON
+        run: |
+          python3 -c "
+          import pandas as pd
+          import json
+
+          url = '${{ secrets.SHEET_URL }}'
+          df = pd.read_csv(url)
+          df = df.iloc[:, :3]
+          df.columns = ['term', 'definition', 'category']
+          df = df.dropna(subset=['term', 'definition'])
+          df['term'] = df['term'].str.strip()
+          df['definition'] = df['definition'].str.strip()
+          df['category'] = df['category'].str.strip()
+          glossary = df.to_dict(orient='records')
+          with open('NexHealth_Glossary.json', 'w') as f:
+              json.dump(glossary, f, indent=2)
+          print(f'Updated {len(glossary)} terms')
+          "
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "glossary-bot"
+          git config user.email "bot@nexhealth.com"
+          git add NexHealth_Glossary.json
+          git diff --staged --quiet || git commit -m "Auto-update glossary from Google Sheets"
+          git push
