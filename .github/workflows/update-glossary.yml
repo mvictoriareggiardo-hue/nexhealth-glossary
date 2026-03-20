@@ -2,12 +2,14 @@ name: Update Glossary
 
 on:
   schedule:
-    - cron: '0 * * * *'  # runs every hour
-  workflow_dispatch:       # lets you trigger it manually too
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      SHEET_URL: ${{ secrets.SHEET_URL }}
     steps:
       - uses: actions/checkout@v4
 
@@ -21,11 +23,13 @@ jobs:
 
       - name: Convert CSV to JSON
         run: |
-          python3 -c "
+          python3 << 'EOF'
           import pandas as pd
           import json
+          import os
 
-          url = '${{ secrets.SHEET_URL }}'
+          url = os.environ['SHEET_URL']
+          print(f"Fetching from: {url[:50]}...")
           df = pd.read_csv(url)
           df = df.iloc[:, :3]
           df.columns = ['term', 'definition', 'category']
@@ -37,7 +41,7 @@ jobs:
           with open('NexHealth_Glossary.json', 'w') as f:
               json.dump(glossary, f, indent=2)
           print(f'Updated {len(glossary)} terms')
-          "
+          EOF
 
       - name: Commit and push if changed
         run: |
