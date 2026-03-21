@@ -1,5 +1,10 @@
 [
   {
+    "term": "A2P",
+    "definition": "Application-to-Person messaging (as opposed to person-to-person messaging like when you\u2019re messaging your friends)",
+    "category": "NexHealth General"
+  },
+  {
     "term": "Abutment",
     "definition": "A tooth (or implant) that supports a dental prothesis (fake tooth)",
     "category": "Dental/ Medical"
@@ -72,7 +77,7 @@
   {
     "term": "ASAP List",
     "definition": "Hot-list designation for patients who want to come in sooner. Used in Dentrix, Dentrix Ascend, Dentrix Enterprise, Open Dental, and Athena.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Athena",
@@ -110,6 +115,11 @@
     "category": "Engineering"
   },
   {
+    "term": "BA",
+    "definition": "Business Associate. A person or organization that performs services or functions for a covered entity and involves PHI.",
+    "category": "Core HIPAA Terms"
+  },
+  {
     "term": "Backend",
     "definition": "The Ruby on Rails app that NexHealth hosts. It serves our SaaS app, and it is where the sync agents send the data to.",
     "category": "Engineering"
@@ -117,7 +127,7 @@
   {
     "term": "BAU",
     "definition": "Business as Usual. Normal day-to-day operating work as opposed to special projects or escalations.",
-    "category": "General / Operations"
+    "category": "NexHealth General / Operations"
   },
   {
     "term": "Beacon",
@@ -143,11 +153,6 @@
     "term": "Breach Notification Rule",
     "definition": "The HIPAA rule that requires notifications after certain breaches of unsecured PHI.",
     "category": "Incident and Breach"
-  },
-  {
-    "term": "Business Associate (BA)",
-    "definition": "A person or organization that performs services or functions for a covered entity and involves PHI.",
-    "category": "Core HIPAA Terms"
   },
   {
     "term": "Business Associate Agreement (BAA)",
@@ -262,21 +267,21 @@
   {
     "term": "CS",
     "definition": "Customer Support",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "CSAT",
     "definition": "Customer Satisfaction Score",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "CSE",
-    "definition": "Customer Support Engineer.",
+    "definition": "Customer Support Engineer",
     "category": "Support"
   },
   {
     "term": "CSR",
-    "definition": "Customer Support Representative.",
+    "definition": "Customer Support Representative",
     "category": "Support"
   },
   {
@@ -336,23 +341,23 @@
   },
   {
     "term": "DM",
-    "definition": "Decision Maker - often the doctor or dentist.",
+    "definition": "Decision Maker. Often the doctor or dentist.",
     "category": "Sales"
   },
   {
     "term": "DN",
-    "definition": "Data Networks - Previous name of the Sync engineering team. Team builds and maintains the synchronization agents that allow data to flow to and from our customers\u2019 systems",
+    "definition": "Data Networks. Previous name of the Sync engineering team. Team builds and maintains the synchronization agents that allow data to flow to and from our customers\u2019 systems",
     "category": "Engineering"
   },
   {
     "term": "Document Center",
     "definition": "Folder/location where scanned or synced documents go in Dentrix, Dentrix Enterprise, and Denticon.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Document Manager",
     "definition": "In Dentrix Ascend, the location where scanned documents go. Open Dental customers may also refer to Imaging as the document manager.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Document Types",
@@ -372,7 +377,7 @@
   {
     "term": "DPMS",
     "definition": "Dental Practice Management System (see EHR)",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "DrChrono",
@@ -381,8 +386,8 @@
   },
   {
     "term": "DSO",
-    "definition": "Dental Service Organization - Multiple location institution. Often large, 10-30 offices. Has full executive team, marketing, etc.",
-    "category": "General"
+    "definition": "Dental Service Organization. Multiple location institution. Often large, 10-30 offices. Has full executive team, marketing, etc.",
+    "category": "NexHealth General"
   },
   {
     "term": "DXA",
@@ -401,13 +406,13 @@
   },
   {
     "term": "eCW",
-    "definition": "eClinicalWorks - Cloud-based Practice Management System",
+    "definition": "eClinicalWorks. Cloud-based Practice Management System",
     "category": "Cloud"
   },
   {
     "term": "EHR",
     "definition": "Electronic Health Record. Used interchangeably with EMR and PMS. Engineering typically uses EHR instead of PMS or EMR.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Eligibility",
@@ -427,7 +432,7 @@
   {
     "term": "EMR",
     "definition": "Electronic Medical Record. Sometimes used synonymously with EHR and PMS.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Encryption / Decryption",
@@ -521,7 +526,7 @@
   },
   {
     "term": "FQHC",
-    "definition": "Federally Qualified Healthcare Center.",
+    "definition": "Federally Qualified Healthcare Center",
     "category": "Medical"
   },
   {
@@ -538,11 +543,6 @@
     "term": "Guarantor",
     "definition": "The person responsible for paying the Patient\u2019s bills (in adult practice commonly the patient themselves, but with families may be a different person)  In examples below we\u2019ll refer to one named \u201cMary Head-of-Household\u201d",
     "category": "Payments"
-  },
-  {
-    "term": "HIPAA",
-    "definition": "Health Insurance Portability and Accountability Act, means that any medical offices or platforms handling PHI must meet a certain level of security and protection",
-    "category": "General"
   },
   {
     "term": "HIPAA",
@@ -592,7 +592,7 @@
   {
     "term": "Ins",
     "definition": "Institution. The medical entity that is the parent of multiple practice locations. Small institutions could have one location. Larger ones could have dozens or hundreds of locations. Called an \u201cOrganization\u201d within Enlive.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Institution",
@@ -651,7 +651,7 @@
   },
   {
     "term": "LDR",
-    "definition": "Lead Development Representative (Sales)",
+    "definition": "Lead Development Representative",
     "category": "Sales"
   },
   {
@@ -672,7 +672,7 @@
   {
     "term": "Loc",
     "definition": "Location. Place of business for a medical or dental practice. Larger institutions can have multiple locations or practices. Also see practice.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Location",
@@ -716,7 +716,7 @@
   },
   {
     "term": "MSO",
-    "definition": "Medical Service Organization; medical equivalent of a DSO.",
+    "definition": "Medical Service Organization. Medical equivalent of a DSO.",
     "category": "Medical"
   },
   {
@@ -726,7 +726,7 @@
   },
   {
     "term": "NADG",
-    "definition": "North American Dental Group, a large DSO customer",
+    "definition": "North American Dental Group. A large Dental Service Organization customer.",
     "category": "Customers"
   },
   {
@@ -792,12 +792,12 @@
   {
     "term": "NTKF",
     "definition": "Need to Know Friday. Our internal weekly broadcast about key product changes and new features to know about!",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "OB",
     "definition": "Online Booking",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "OCR",
@@ -817,7 +817,7 @@
   {
     "term": "Operatory",
     "definition": "Commonly shortened to op in code. Exam room or chair that the doctor or hygienist works in. May also refer to the column that the office manager uses to schedule a doctor/hygienist in the PMS. Some customers will assign create an op per provider, but that is rare.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Orthodontist",
@@ -837,7 +837,7 @@
   {
     "term": "Packet",
     "definition": "A collection of forms.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Parent Organization",
@@ -887,7 +887,7 @@
   {
     "term": "Payments",
     "definition": "A product we offer to collect payments.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "PDFWS",
@@ -916,11 +916,6 @@
   },
   {
     "term": "PHI",
-    "definition": "Protected Health Information, with regards to HIPAA compliance. A subset of PII. Any information about health status, provision of health care, or payment for health care that is created or collected by a Covered Entity, and can be linked to a specific individual e.g. test results, insurance payments, etc.",
-    "category": "General"
-  },
-  {
-    "term": "PHI",
     "definition": "Protected Health Information. Individually identifiable health information protected under HIPAA.",
     "category": "Core HIPAA Terms"
   },
@@ -931,18 +926,18 @@
   },
   {
     "term": "PII",
-    "definition": "Personally Identifiable Information, a superset of PHI",
-    "category": "General"
+    "definition": "Personally Identifiable Information. A superset of PHI",
+    "category": "NexHealth General"
   },
   {
     "term": "PMS",
-    "definition": "Practice Management System - software medical & dental practices use to run their practice. Sometimes used synonymously with EMR and EHR.",
-    "category": "General"
+    "definition": "Practice Management System. Software medical & dental practices use to run their practice. Sometimes used synonymously with EMR and EHR.",
+    "category": "NexHealth General"
   },
   {
     "term": "Practice",
     "definition": "Single location or few locations (<5). Also referred to as a location.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Practice Administrator",
@@ -1002,7 +997,7 @@
   {
     "term": "Provider",
     "definition": "A doctor, nurse, hygienist, or someone else that provides care to a patient. Also refers to who bills the insurance.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Provider Schedule Template",
@@ -1110,23 +1105,18 @@
     "category": "Customers"
   },
   {
-    "term": "Scaling and Root Planing (SRP)",
-    "definition": "Treatment for active gum disease that removes plaque and tartar from the tooth surface and below the gum line to clean infected gum pockets.",
-    "category": "Dental/ Medical"
-  },
-  {
     "term": "Schedule Settings",
     "definition": "Tools menu used to set Book On minutes and Required minutes before booking.",
     "category": "Tools"
   },
   {
     "term": "SDC",
-    "definition": "SmileDirectClub - API partner",
+    "definition": "SmileDirectClub. API partner",
     "category": "Customers"
   },
   {
     "term": "SDR",
-    "definition": "Sales Development Representative - Outbound Sales",
+    "definition": "Sales Development Representative. Outbound Sales",
     "category": "Sales"
   },
   {
@@ -1172,7 +1162,7 @@
   {
     "term": "SLA",
     "definition": "Service Level Agreement. The amount of time (1 hour) we have to respond to clients as per their contracts. It is not actually written in their contracts, however NexHealth uses it as a metric to determine how quickly we are able to respond to customers' inquiries.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Smart Commands",
@@ -1197,12 +1187,17 @@
   {
     "term": "Sooner if possible",
     "definition": "Hot-list designation for patients who want a sooner appointment in Eaglesoft and Cloud 9.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "SQL",
     "definition": "Sales Qualified Leads",
     "category": "Sales"
+  },
+  {
+    "term": "SRP",
+    "definition": "Scaling and Root Planing. Treatment for active gum disease that removes plaque and tartar from the tooth surface and below the gum line to clean infected gum pockets.",
+    "category": "Dental/ Medical"
   },
   {
     "term": "SSO",
@@ -1238,16 +1233,6 @@
     "term": "Technical Safeguards",
     "definition": "Technology and related policies used to protect ePHI and control access to it.",
     "category": "Security Rule"
-  },
-  {
-    "term": "Term",
-    "definition": "Definition",
-    "category": "Category"
-  },
-  {
-    "term": "Test",
-    "definition": "This is a test",
-    "category": NaN
   },
   {
     "term": "Tools",
@@ -1302,7 +1287,7 @@
   {
     "term": "Waitlist",
     "definition": "General term for a list of patients who want an earlier appointment; some systems use EHR-specific alternatives like ASAP List, Appointment Wait List, or Short Notice List.",
-    "category": "General"
+    "category": "NexHealth General"
   },
   {
     "term": "Web app",
